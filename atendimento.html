@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horários de Atendimento</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        .menu {
+          display: flexbox;
+          flex-wrap: nowrap;
+          background-color: DodgerBlue;
+          justify-content: right;
+          background-color: #f1f1f1;
+          width: 15%;
+          margin: 1px;
+          text-align: left;
+          line-height: 10px;
+          font-size: 10px;
+          position: fixed;
+          right: 0px;
+        }
+        table thead tr {
+            background-color: black;
+            color: beige;
+        }
+      </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul display="block">
+                <li><a href="principal.html">Página Principal</a></li>
+                <li><a href="sobre.html">Sobre a Clínica</a></li>
+                <li><a href="atendimento.html">Horário de Atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="horario.png" height="100" alt="Logo da clínica">
+            </div>
+    
+            <div class="content">
+                <table summary="horários de atendimento da clínica" border="1">
+                    <caption>Horários de Atendimento</caption>
+                    <thead>
+                        <tr>
+                            <td>Serviços</td>
+                            <td>Segunda à Sexta</td>
+                            <td>Sábados</td>
+                            <td>Feriados</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Clínica Geral</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 14h</td>
+                            <td>08h - 14h</td>
+                        </tr>
+                        <tr>
+                            <td>Psicologia</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 14h</td>
+                            <td>08h - 14h</td>
+                        </tr>
+                        <tr>
+                            <td>Pediatria</td>
+                            <td>08h - 19h</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Oftalmologia</td>
+                            <td>08h - 19h</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr>
+                <h3>Valor da Consulta:</h3>
+                <p>O valor da consulta é passado no agendamento, variando conforme dia e horário</p>
+            </div>
+    
+            <div class="footer">
+                <ul title="Contato">
+                    <li>Whatsapp: (12) 99999-9999</li>
+                    <li>Telefone: (12) 3555-5555</li>
+                    <li>Email: clinicags@hotmail.com</li>  
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
